@@ -9,7 +9,7 @@ There are three different ways to integrate Argo CD login with your Google Works
 * [OpenID Connect plus Google Groups using Dex](#openid-connect-plus-google-groups-using-dex)  
   This is the recommended method if you need to use Google Groups membership in your RBAC configuration.
 
-Once you've set up one of the above integrations, be sure to edit `argo-rbac-cm` to configure permissions (as in the example below). See [RBAC Configurations](../rbac.md) for more detailed scenarios.
+Once you've set up one of the above integrations, be sure to edit `argocd-rbac-cm` to configure permissions (as in the example below). See [RBAC Configurations](../rbac.md) for more detailed scenarios.
 
 ```yaml
 apiVersion: v1
